@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   navButton.addEventListener("click", () => {
     nav.classList.toggle("active");
+    document.body.classList.toggle("overlay");
     mainSection.classList.toggle("hide");
   });
 });
